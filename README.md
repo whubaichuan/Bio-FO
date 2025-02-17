@@ -60,4 +60,4 @@ In the directory of `mini-ImageNet`, the codes for DRTP, PEPITA, FF, CaFo<sup>[4
 [3] Hinton, Geoffrey. "The forward-forward algorithm: Some preliminary investigations." arXiv preprint arXiv:2212.13345 (2022).
 
 
-[4] Zhao, Gongpei, et al. "The cascaded forward algorithm for neural network training." arXiv preprint arXiv:2303.09728 (2023).
+[4] Zhao, Gongpei, et al. "The cascaded forward algorithm for neural network training." Pattern Recognition 161 (2025): 111292.
