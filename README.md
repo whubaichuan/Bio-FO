@@ -2,11 +2,11 @@
 
 This repository provides the reproducible code for all the reported results in the paper **Efficient On-Device Machine Learning with a Biologically-Plausible Forward-Only Algorithm**.
 
-![FPF](./img/main.png)
+![Bio-FO](./img/main.png)
 
 
 ## 1. Bio-FO
-In the directory of `BioFO`, the codes for the state-of-the-art forward-only algorithms are provided, including DRTP<sup>[1]</sup>, PEPITA<sup>[2]</sup>, FF<sup>[3]</sup>, and Bio-FO on MNIST, CIFAR-10, CIFAR-100, [CHB-MIT](https://physionet.org/content/chbmit/1.0.0/), [MIT-MIT](https://www.physionet.org/content/mitdb/1.0.0/) datastes. 
+In the directory of `BioFO`, the codes for the state-of-the-art forward-only algorithms are provided, including DRTP<sup>[1]</sup>, PEPITA<sup>[2]</sup>, FF<sup>[3]</sup>, and Bio-FO on MNIST, CIFAR-10, CIFAR-100, [CHB-MIT](https://physionet.org/content/chbmit/1.0.0/), [MIT-BIH](https://www.physionet.org/content/mitdb/1.0.0/) datastes. 
 Taking MNIST as an example, the codes are shown as follows:
 - MNIST-BP: ``python BioFO/MNIST/MNIST_BP/Main.py ``
 - MNIST-DRTP: ``python BioFO/MNIST/MNIST_DRTP/main.py ``
@@ -50,8 +50,6 @@ In the directory of `mini-ImageNet`, the codes for DRTP, PEPITA, FF, CaFo<sup>[4
 - mini-ImageNet-Bio-FO: ``python mini-ImageNet/BioFO.py ``
 - mini-ImageNet-BP: ``python mini-ImageNet/BP.py ``
 
-
-## References
 
 [1] Frenkel, Charlotte, Martin Lefebvre, and David Bol. "Learning without feedback: Fixed random learning signals allow for feedforward training of deep neural networks." Frontiers in neuroscience 15 (2021): 629892.
 
